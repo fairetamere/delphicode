@@ -1,0 +1,44 @@
+unit DaoUnit;
+
+interface
+uses
+  System.Generics.Collections,Unit4,Winapi.Messages,Vcl.Dialogs;
+type
+  TDao=class
+  public
+  class procedure Add(Student:TStduent);
+  class function ListStu():TDictionary<string,TStduent>;
+  end;
+
+
+
+
+implementation
+var
+  Students:TDictionary<string,TStduent>;
+
+
+{ TDao }
+
+class procedure TDao.Add(Student: TStduent);
+begin
+  if not Students.ContainsKey(Student.Id) then
+  begin
+   Students.Add(Student.Id,Student);
+  end
+  else
+  begin
+   ShowMessage('该信息已经存在');
+  end;
+
+end;
+
+class function TDao.ListStu: TDictionary<string,TStduent>;
+begin
+
+end;
+
+initialization
+Students:=TDictionary<string,TStduent>.Create();
+
+end.

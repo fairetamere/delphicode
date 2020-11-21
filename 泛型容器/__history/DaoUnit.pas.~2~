@@ -1,0 +1,16 @@
+unit DaoUnit;
+
+interface
+uses
+  System.Generics.Collections,Unit4;
+
+implementation
+type
+   TDao=class
+
+   end;
+
+
+initialization
+
+end.

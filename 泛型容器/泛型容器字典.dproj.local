@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/11/13 01:40:17.000.315,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/17 00:00:37.000.646,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/17 00:03:10.000.547,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/17 00:05:16.000.169,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\泛型容器\Unit3.dfm=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020/11/17 00:05:16.000.169,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\泛型容器\Unit3.pas=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/17 00:05:41.000.706,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\泛型容器\泛型容器字典.dproj=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/11/17 00:18:46.000.054,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\泛型容器\Unit4.pas</Transaction>
+    <Transaction>2020/11/17 01:09:53.000.846,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\泛型容器\Unit5.pas</Transaction>
+    <Transaction>2020/11/17 01:12:00.000.947,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\泛型容器\Unit5.dfm=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\泛型容器\FormAdd.dfm</Transaction>
+    <Transaction>2020/11/17 01:12:00.000.947,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\泛型容器\Unit5.pas=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\泛型容器\FormAdd.pas</Transaction>
+    <Transaction>2020/11/17 01:50:38.000.508,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\泛型容器\Unit5.pas</Transaction>
+    <Transaction>2020/11/17 01:51:18.000.435,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\泛型容器\Unit5.pas=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\泛型容器\DaoUnit.pas</Transaction>
+  </Transactions>
+</BorlandProject>

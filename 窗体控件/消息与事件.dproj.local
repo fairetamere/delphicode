@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/11/13 01:40:17.000.315,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/13 01:41:07.000.437,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/13 01:41:58.000.572,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\窗体控件\Unit1Form.pas=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/13 01:41:58.000.572,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\窗体控件\Unit1Form.dfm=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020/11/13 01:42:22.000.258,C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\窗体控件\消息与事件.dproj=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/11/13 01:42:37.000.086,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\窗体控件\Unit3.pas</Transaction>
+  </Transactions>
+</BorlandProject>

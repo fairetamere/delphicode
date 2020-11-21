@@ -1,0 +1,40 @@
+program demo6;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.TypInfo,System.SysUtils;
+const
+  pie:Double=3.14;//常量，可以不进行类型声明，编译器由值来决定
+//枚举 常量集
+type
+  Ecolor=(RED,YELLOW,BLUE);//定义枚举类型
+  Eweek=(sun =1,mon =2) ;
+
+var
+  color:Ecolor;
+  week:Eweek;
+  Eindex:Integer;
+  UserName:string;
+procedure Demo1();
+  begin
+    color:=Ecolor.RED;
+    week:=Eweek.sun;
+    Writeln(ord(week),ord(color));
+
+  end;
+begin
+  Eindex:=0;
+  for color := Low(Ecolor) to High(Ecolor) do
+    begin
+      Writeln(GetEnumName(TypeInfo(Ecolor),Eindex));
+      Writeln(GetEnumValue(TypeInfo(Ecolor),'RED'));
+      Inc(Eindex)
+    end;
+
+  Readln;
+
+
+end.

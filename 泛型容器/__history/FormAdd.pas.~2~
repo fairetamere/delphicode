@@ -1,0 +1,28 @@
+unit FormAdd;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TAddform = class(TForm)
+    lbl2: TLabel;
+    edtAge: TEdit;
+    edtName: TEdit;
+    lbl1: TLabel;
+    btnSave: TButton;
+    btnCancel: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Addform: TAddform;
+
+implementation
+{$R *.dfm}
+end.

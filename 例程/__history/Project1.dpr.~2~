@@ -1,0 +1,34 @@
+program Project1;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils;
+//例程分为函数与过程 函数必须要有返回值
+//定义函数
+//传值
+function Demo2(A:Integer;B:Integer):Integer;
+begin
+    A+B
+end;
+//传地址
+function Demo3(var A:Integer;var B:Integer):Integer;
+begin
+    A+B
+end;
+//传递不定参数
+function Demo4(const Number:array of Integer):Integer;
+begin
+
+end;
+var
+ X:Integer;
+ Y:Integer;
+
+begin
+   X:=1;
+   Y:=2;
+   Demo2(X,Y);
+end.

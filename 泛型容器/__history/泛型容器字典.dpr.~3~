@@ -1,0 +1,17 @@
+program ·ºÐÍÈÝÆ÷×Öµä;
+
+uses
+  Vcl.Forms,
+  Unit3 in 'Unit3.pas' {Form1},
+  Unit4 in 'Unit4.pas',
+  FormAdd in 'FormAdd.pas' {Addform};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TAddform, Addform);
+  Application.Run;
+end.
